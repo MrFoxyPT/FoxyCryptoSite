@@ -1,0 +1,37 @@
+body {
+    background-color: #1b2838;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 100px;
+}
+
+main {
+    /* Cor preta com 50% de transparência */
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 40px; /* Aumentei o padding para o texto não sufocar */
+    margin: 50px auto; /* Margin em cima/baixo para separar da nav e footer */
+    max-width: 90%; /* Para não ficar colado às bordas do ecrã */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.foxybar {
+    background-color: rgba(27, 40, 56, 0.9); /* O mesmo azul do body, mas com 90% de opacidade */
+    backdrop-filter: blur(10px); /* Mantém o efeito blur para consistência */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem 2rem;
+}
+
+.foxybar .nav-link, 
+.foxybar .navbar-brand {
+    color: #ffffff !important;
+}
+
+.foxybar .nav-link:hover {
+    color: #00d4ff !important;
+}
